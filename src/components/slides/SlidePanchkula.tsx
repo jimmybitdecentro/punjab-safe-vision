@@ -3,13 +3,14 @@ import SlideLayout from "./SlideLayout";
 import heroPanchkula from "@/assets/hero-panchkula.jpg";
 
 const reasons = [
-  { icon: Building2, text: "One of Haryana's largest and most densely populated cities" },
-  { icon: Users, text: "Industrial hub with high workforce mobility" },
-  { icon: Layers, text: "Mixed urban + semi-urban + rural zones — ideal test environment" },
-  { icon: MapPin, text: "Reported concerns of drug-related activities in key areas" },
-  { icon: CheckCircle2, text: "Strong administrative infrastructure for pilot execution" },
-  { icon: TrendingUp, text: "High scalability — if it works here, it works anywhere in Haryana" },
+  { icon: Building2, text: "Haryana's administrative gateway — adjoining the State Police HQ ecosystem" },
+  { icon: Users, text: "Compact, high-density urban sectors with strong civic participation" },
+  { icon: Layers, text: "Perfect mix of urban sectors, Kalka–Pinjore belt and rural Barwala / Raipur Rani blocks" },
+  { icon: MapPin, text: "Tri-state border district (Punjab, Himachal, Chandigarh) — key transit corridor" },
+  { icon: CheckCircle2, text: "Strong administrative infrastructure and Safe City CCTV base for pilot execution" },
+  { icon: TrendingUp, text: "High scalability — if it works here, it works across all 22 Haryana districts" },
 ];
+
 
 export default function SlidePanchkula() {
   return (
