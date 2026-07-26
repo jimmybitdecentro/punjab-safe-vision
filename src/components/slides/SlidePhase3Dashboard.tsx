@@ -94,9 +94,9 @@ export default function SlidePhase3Dashboard() {
                     <Zap className="w-3 h-3" /> AI Predicted Hotspots — Next 48hrs
                   </p>
                   {[
-                    { area: "GT Road Corridor, Moga", risk: "92%", type: "Supply Route" },
-                    { area: "Industrial Area, Ferozepur", risk: "87%", type: "Distribution" },
-                    { area: "Border Zone, Pathankot", risk: "85%", type: "Smuggling" },
+                    { area: "NH-44 Corridor, Karnal", risk: "92%", type: "Supply Route" },
+                    { area: "Industrial Area, Hisar", risk: "87%", type: "Distribution" },
+                    { area: "Border Zone, Sirsa", risk: "85%", type: "Smuggling" },
                   ].map((p, i) => (
                     <div key={i} className="flex items-center justify-between p-2 rounded-lg bg-primary-foreground/5 mb-1.5 last:mb-0">
                       <div>
