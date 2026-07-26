@@ -1,4 +1,4 @@
-// Simple localStorage-backed demo store for NashaMukt Punjab Phase 1
+// Simple localStorage-backed demo store for NashaMukt Haryana Phase 1
 // Handles auth (citizen + command), reports, zones, notifications.
 
 export type UserRole = "citizen" | "command";
@@ -99,7 +99,7 @@ export function loginCommand(badgeId: string, name: string, station: string) {
     id: "cmd_" + badgeId,
     name: name || "Officer",
     badgeId,
-    station: station || "Ludhiana HQ",
+    station: station || "Panchkula HQ",
   };
   setUser(u);
   return u;
@@ -118,20 +118,20 @@ export function locationKey(lat: number, lng: number) {
   return `${lat.toFixed(4)}_${lng.toFixed(4)}`;
 }
 
-// Predefined Ludhiana points to make lat/lng realistic in the demo.
-export const LUDHIANA_POINTS: { name: string; lat: number; lng: number }[] = [
-  { name: "Model Town, Ludhiana", lat: 30.8622, lng: 75.8156 },
-  { name: "Sarabha Nagar, Ludhiana", lat: 30.8845, lng: 75.8341 },
-  { name: "Civil Lines, Ludhiana", lat: 30.9083, lng: 75.8467 },
-  { name: "Dugri Phase 1, Ludhiana", lat: 30.8489, lng: 75.8371 },
-  { name: "Haibowal Kalan, Ludhiana", lat: 30.9192, lng: 75.8271 },
-  { name: "Basti Jodhewal, Ludhiana", lat: 30.9345, lng: 75.8501 },
-  { name: "Salem Tabri, Ludhiana", lat: 30.9280, lng: 75.8620 },
-  { name: "Focal Point, Ludhiana", lat: 30.8730, lng: 75.9110 },
-  { name: "Jamalpur, Ludhiana", lat: 30.9420, lng: 75.8710 },
-  { name: "Shimlapuri, Ludhiana", lat: 30.9218, lng: 75.8555 },
-  { name: "Gill Road, Ludhiana", lat: 30.8945, lng: 75.8622 },
-  { name: "Threekey Chowk, Ludhiana", lat: 30.8802, lng: 75.8480 },
+// Predefined Panchkula points to make lat/lng realistic in the demo.
+export const PANCHKULA_POINTS: { name: string; lat: number; lng: number }[] = [
+  { name: "Model Town, Panchkula", lat: 30.8622, lng: 75.8156 },
+  { name: "Sarabha Nagar, Panchkula", lat: 30.8845, lng: 75.8341 },
+  { name: "Civil Lines, Panchkula", lat: 30.9083, lng: 75.8467 },
+  { name: "Dugri Phase 1, Panchkula", lat: 30.8489, lng: 75.8371 },
+  { name: "Haibowal Kalan, Panchkula", lat: 30.9192, lng: 75.8271 },
+  { name: "Basti Jodhewal, Panchkula", lat: 30.9345, lng: 75.8501 },
+  { name: "Salem Tabri, Panchkula", lat: 30.9280, lng: 75.8620 },
+  { name: "Focal Point, Panchkula", lat: 30.8730, lng: 75.9110 },
+  { name: "Jamalpur, Panchkula", lat: 30.9420, lng: 75.8710 },
+  { name: "Shimlapuri, Panchkula", lat: 30.9218, lng: 75.8555 },
+  { name: "Gill Road, Panchkula", lat: 30.8945, lng: 75.8622 },
+  { name: "Threekey Chowk, Panchkula", lat: 30.8802, lng: 75.8480 },
 ];
 
 
@@ -359,7 +359,7 @@ function makeRandomReport(i: number, now: number): Report {
   const pool: number[] = [];
   weight.forEach((w, idx) => { for (let x = 0; x < w; x++) pool.push(idx); });
   const pIdx = pool[i % pool.length];
-  const p = LUDHIANA_POINTS[pIdx];
+  const p = PANCHKULA_POINTS[pIdx];
   const category = CATEGORIES[i % CATEGORIES.length];
   const descPool = DESCRIPTIONS[category];
   const description = descPool[i % descPool.length];

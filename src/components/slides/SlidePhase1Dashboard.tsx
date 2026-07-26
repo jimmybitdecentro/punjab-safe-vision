@@ -1,6 +1,6 @@
 import { MapPin, AlertTriangle, CheckCircle2, Clock } from "lucide-react";
 import SlideLayout from "./SlideLayout";
-import heroLudhiana from "@/assets/hero-ludhiana.jpg";
+import heroPanchkula from "@/assets/hero-panchkula.jpg";
 
 export default function SlidePhase1Dashboard() {
   return (
@@ -27,18 +27,18 @@ export default function SlidePhase1Dashboard() {
             </div>
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
               <span className="badge-pill badge-success">Live</span>
-              Ludhiana District
+              Panchkula District
             </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-0">
             {/* Map area with real image */}
             <div className="md:col-span-2 border-r border-border relative min-h-[320px] overflow-hidden">
-              <img src={heroLudhiana} alt="Ludhiana map view" className="absolute inset-0 w-full h-full object-cover opacity-30" loading="lazy" />
+              <img src={heroPanchkula} alt="Panchkula map view" className="absolute inset-0 w-full h-full object-cover opacity-30" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-b from-card/40 to-card/60" />
               <div className="relative p-6">
                 <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4">
-                  Live Heatmap — Ludhiana
+                  Live Heatmap — Panchkula
                 </p>
                 <div className="relative w-full h-56 rounded-xl bg-secondary/30 backdrop-blur-sm overflow-hidden border border-border">
                   <div className="heatmap-dot heatmap-red w-12 h-12" style={{ top: "20%", left: "30%" }} />

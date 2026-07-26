@@ -16,7 +16,7 @@ export default function SlideSolution() {
             Solution Overview
           </h2>
           <p className="text-muted-foreground mt-2 text-lg">
-            NashaMukt Punjab — AI Surveillance & Citizen Reporting System
+            NashaMukt Haryana — AI Surveillance & Citizen Reporting System
           </p>
           <div className="slide-accent-bar w-24 mt-4" />
         </div>

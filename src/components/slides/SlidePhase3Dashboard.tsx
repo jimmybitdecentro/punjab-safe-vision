@@ -1,6 +1,6 @@
 import { Map, Shield, TrendingDown, AlertTriangle, Activity, Zap, Radio, Eye } from "lucide-react";
 import SlideLayout from "./SlideLayout";
-import heroPunjabMap from "@/assets/hero-punjab-map.jpg";
+import heroHaryanaMap from "@/assets/hero-haryana-map.jpg";
 
 export default function SlidePhase3Dashboard() {
   return (
@@ -14,7 +14,7 @@ export default function SlidePhase3Dashboard() {
             Phase 3 — Command Center
           </span>
           <h2 className="slide-title text-3xl md:text-4xl mt-4">
-            Punjab Central Command Dashboard
+            Haryana Central Command Dashboard
           </h2>
           <div className="slide-accent-bar w-24 mt-4" />
         </div>
@@ -25,7 +25,7 @@ export default function SlidePhase3Dashboard() {
           <div className="flex items-center justify-between px-5 py-2.5 border-b border-primary-foreground/10 bg-primary-foreground/5">
             <div className="flex items-center gap-3">
               <Shield className="w-4 h-4 opacity-60" />
-              <span className="text-xs font-bold opacity-80">NashaMukt Punjab — Central Command v3.0</span>
+              <span className="text-xs font-bold opacity-80">NashaMukt Haryana — Central Command v3.0</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="flex items-center gap-1 text-[10px] opacity-60"><Radio className="w-3 h-3 text-success" /> LIVE</span>
@@ -37,7 +37,7 @@ export default function SlidePhase3Dashboard() {
             {/* State stats */}
             <div className="grid grid-cols-5 gap-3">
               {[
-                { icon: Map, label: "Districts Active", value: "23/23", sub: "Full Coverage" },
+                { icon: Map, label: "Districts Active", value: "22/22", sub: "Full Coverage" },
                 { icon: TrendingDown, label: "Crime Reduction", value: "47%", sub: "vs Last Year" },
                 { icon: AlertTriangle, label: "Active Alerts", value: "128", sub: "34 Critical" },
                 { icon: Eye, label: "CCTV Feeds", value: "2,400+", sub: "State-wide" },
@@ -53,29 +53,29 @@ export default function SlidePhase3Dashboard() {
             </div>
 
             <div className="grid grid-cols-5 gap-4">
-              {/* Punjab Map with image */}
+              {/* Haryana Map with image */}
               <div className="col-span-3 rounded-xl bg-primary-foreground/5 border border-primary-foreground/10 overflow-hidden">
                 <div className="relative h-28">
-                  <img src={heroPunjabMap} alt="Punjab map" className="w-full h-full object-cover opacity-30" loading="lazy" />
+                  <img src={heroHaryanaMap} alt="Haryana map" className="w-full h-full object-cover opacity-30" loading="lazy" />
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/40" />
                   <div className="absolute top-2 left-3 flex items-center justify-between w-[calc(100%-1.5rem)]">
-                    <p className="text-xs font-bold opacity-80">🗺️ Punjab Live Map</p>
+                    <p className="text-xs font-bold opacity-80">🗺️ Haryana Live Map</p>
                     <span className="text-[9px] opacity-40">Real-time</span>
                   </div>
                 </div>
                 <div className="p-3">
                   <div className="grid grid-cols-5 gap-2">
                     {[
-                      { name: "Amritsar", status: "green", cases: 12 },
-                      { name: "Ludhiana", status: "green", cases: 8 },
-                      { name: "Jalandhar", status: "green", cases: 15 },
-                      { name: "Patiala", status: "yellow", cases: 22 },
-                      { name: "Bathinda", status: "yellow", cases: 19 },
-                      { name: "Mohali", status: "green", cases: 6 },
-                      { name: "Pathankot", status: "red", cases: 31 },
-                      { name: "Moga", status: "yellow", cases: 18 },
-                      { name: "Sangrur", status: "green", cases: 9 },
-                      { name: "Ferozepur", status: "red", cases: 28 },
+                      { name: "Panchkula", status: "green", cases: 8 },
+                      { name: "Ambala", status: "green", cases: 12 },
+                      { name: "Yamunanagar", status: "green", cases: 15 },
+                      { name: "Karnal", status: "yellow", cases: 22 },
+                      { name: "Sonipat", status: "yellow", cases: 19 },
+                      { name: "Kurukshetra", status: "green", cases: 6 },
+                      { name: "Sirsa", status: "red", cases: 31 },
+                      { name: "Hisar", status: "yellow", cases: 18 },
+                      { name: "Rohtak", status: "green", cases: 9 },
+                      { name: "Gurugram", status: "red", cases: 28 },
                     ].map((d, i) => (
                       <div key={i} className="text-center p-1.5 rounded-lg bg-primary-foreground/5">
                         <div className={`w-2.5 h-2.5 rounded-full mx-auto mb-1 ${d.status === "green" ? "bg-success" : d.status === "yellow" ? "bg-gold" : "bg-accent"}`} />
@@ -94,9 +94,9 @@ export default function SlidePhase3Dashboard() {
                     <Zap className="w-3 h-3" /> AI Predicted Hotspots — Next 48hrs
                   </p>
                   {[
-                    { area: "GT Road Corridor, Moga", risk: "92%", type: "Supply Route" },
-                    { area: "Industrial Area, Ferozepur", risk: "87%", type: "Distribution" },
-                    { area: "Border Zone, Pathankot", risk: "85%", type: "Smuggling" },
+                    { area: "NH-44 Corridor, Karnal", risk: "92%", type: "Supply Route" },
+                    { area: "Industrial Area, Hisar", risk: "87%", type: "Distribution" },
+                    { area: "Border Zone, Sirsa", risk: "85%", type: "Smuggling" },
                   ].map((p, i) => (
                     <div key={i} className="flex items-center justify-between p-2 rounded-lg bg-primary-foreground/5 mb-1.5 last:mb-0">
                       <div>

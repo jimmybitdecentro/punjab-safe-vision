@@ -17,7 +17,7 @@ export default function CitizenLogin() {
   };
 
   return (
-    <MobileFrame caption="NashaMukt Punjab · Citizen App (Anonymous)">
+    <MobileFrame caption="NashaMukt Haryana · Citizen App (Anonymous)">
       <div className="w-full min-h-full flex items-center justify-center bg-gradient-to-br from-primary via-primary to-accent p-5">
         <div className="w-full">
           <div className="flex items-center justify-center gap-3 mb-6">
@@ -25,8 +25,8 @@ export default function CitizenLogin() {
               <Shield className="w-6 h-6 text-primary-foreground" />
             </div>
             <div className="text-primary-foreground">
-              <h1 className="font-black text-xl leading-tight">NashaMukt Punjab</h1>
-              <p className="text-[10px] opacity-80">Citizen Reporting · Pilot: Ludhiana</p>
+              <h1 className="font-black text-xl leading-tight">NashaMukt Haryana</h1>
+              <p className="text-[10px] opacity-80">Citizen Reporting · Pilot: Panchkula</p>
             </div>
           </div>
 

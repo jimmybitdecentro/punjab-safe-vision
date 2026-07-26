@@ -24,7 +24,7 @@ export default function SlidePhase2Dashboard() {
               <div className="w-3 h-3 rounded-full bg-destructive" />
               <div className="w-3 h-3 rounded-full bg-gold" />
               <div className="w-3 h-3 rounded-full bg-success" />
-              <span className="text-xs font-semibold text-muted-foreground ml-2">NashaMukt Punjab — Admin Dashboard v2.0</span>
+              <span className="text-xs font-semibold text-muted-foreground ml-2">NashaMukt Haryana — Admin Dashboard v2.0</span>
             </div>
             <span className="text-[10px] text-muted-foreground">Last synced: 2 min ago</span>
           </div>
@@ -61,14 +61,14 @@ export default function SlidePhase2Dashboard() {
                 </div>
                 <div className="flex items-end gap-3 h-32 pt-4">
                   {[
-                    { name: "Ludhiana", h: "100%", cases: 89 },
-                    { name: "Amritsar", h: "78%", cases: 67 },
-                    { name: "Jalandhar", h: "65%", cases: 52 },
-                    { name: "Patiala", h: "55%", cases: 44 },
-                    { name: "Mohali", h: "45%", cases: 36 },
-                    { name: "Bathinda", h: "38%", cases: 28 },
-                    { name: "Pathankot", h: "30%", cases: 22 },
-                    { name: "Moga", h: "22%", cases: 15 },
+                    { name: "Panchkula", h: "100%", cases: 89 },
+                    { name: "Ambala", h: "78%", cases: 67 },
+                    { name: "Yamunanagar", h: "65%", cases: 52 },
+                    { name: "Kurukshetra", h: "55%", cases: 44 },
+                    { name: "Karnal", h: "45%", cases: 36 },
+                    { name: "Sonipat", h: "38%", cases: 28 },
+                    { name: "Panipat", h: "30%", cases: 22 },
+                    { name: "Kaithal", h: "22%", cases: 15 },
                   ].map((d, i) => (
                     <div key={i} className="flex-1 flex flex-col items-center gap-1">
                       <span className="text-[8px] font-bold text-foreground">{d.cases}</span>
