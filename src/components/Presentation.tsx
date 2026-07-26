@@ -43,7 +43,7 @@ const slides = [
   SlideSecurity,
   SlideImpact,
   SlideRoadmap,
-  SlideCommercial,
+  // SlideCommercial, // hidden
   SlideClosing,
 ];
 
