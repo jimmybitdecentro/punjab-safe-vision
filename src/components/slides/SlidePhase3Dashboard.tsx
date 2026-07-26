@@ -37,7 +37,7 @@ export default function SlidePhase3Dashboard() {
             {/* State stats */}
             <div className="grid grid-cols-5 gap-3">
               {[
-                { icon: Map, label: "Districts Active", value: "23/23", sub: "Full Coverage" },
+                { icon: Map, label: "Districts Active", value: "22/22", sub: "Full Coverage" },
                 { icon: TrendingDown, label: "Crime Reduction", value: "47%", sub: "vs Last Year" },
                 { icon: AlertTriangle, label: "Active Alerts", value: "128", sub: "34 Critical" },
                 { icon: Eye, label: "CCTV Feeds", value: "2,400+", sub: "State-wide" },
@@ -66,16 +66,16 @@ export default function SlidePhase3Dashboard() {
                 <div className="p-3">
                   <div className="grid grid-cols-5 gap-2">
                     {[
-                      { name: "Amritsar", status: "green", cases: 12 },
                       { name: "Panchkula", status: "green", cases: 8 },
-                      { name: "Jalandhar", status: "green", cases: 15 },
-                      { name: "Patiala", status: "yellow", cases: 22 },
-                      { name: "Bathinda", status: "yellow", cases: 19 },
-                      { name: "Mohali", status: "green", cases: 6 },
-                      { name: "Pathankot", status: "red", cases: 31 },
-                      { name: "Moga", status: "yellow", cases: 18 },
-                      { name: "Sangrur", status: "green", cases: 9 },
-                      { name: "Ferozepur", status: "red", cases: 28 },
+                      { name: "Ambala", status: "green", cases: 12 },
+                      { name: "Yamunanagar", status: "green", cases: 15 },
+                      { name: "Karnal", status: "yellow", cases: 22 },
+                      { name: "Sonipat", status: "yellow", cases: 19 },
+                      { name: "Kurukshetra", status: "green", cases: 6 },
+                      { name: "Sirsa", status: "red", cases: 31 },
+                      { name: "Hisar", status: "yellow", cases: 18 },
+                      { name: "Rohtak", status: "green", cases: 9 },
+                      { name: "Gurugram", status: "red", cases: 28 },
                     ].map((d, i) => (
                       <div key={i} className="text-center p-1.5 rounded-lg bg-primary-foreground/5">
                         <div className={`w-2.5 h-2.5 rounded-full mx-auto mb-1 ${d.status === "green" ? "bg-success" : d.status === "yellow" ? "bg-gold" : "bg-accent"}`} />
