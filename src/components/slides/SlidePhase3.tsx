@@ -1,6 +1,6 @@
 import { Globe, Brain, Video, Monitor } from "lucide-react";
 import SlideLayout from "./SlideLayout";
-import heroHaryanaMap from "@/assets/hero-punjab-map.jpg";
+import heroHaryanaMap from "@/assets/hero-haryana-map.jpg";
 
 export default function SlidePhase3() {
   return (

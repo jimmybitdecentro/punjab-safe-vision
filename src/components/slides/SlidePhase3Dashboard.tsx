@@ -1,6 +1,6 @@
 import { Map, Shield, TrendingDown, AlertTriangle, Activity, Zap, Radio, Eye } from "lucide-react";
 import SlideLayout from "./SlideLayout";
-import heroHaryanaMap from "@/assets/hero-punjab-map.jpg";
+import heroHaryanaMap from "@/assets/hero-haryana-map.jpg";
 
 export default function SlidePhase3Dashboard() {
   return (

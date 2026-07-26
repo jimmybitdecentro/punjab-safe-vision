@@ -1,6 +1,6 @@
 import { MapPin, AlertTriangle, CheckCircle2, Clock } from "lucide-react";
 import SlideLayout from "./SlideLayout";
-import heroPanchkula from "@/assets/hero-ludhiana.jpg";
+import heroPanchkula from "@/assets/hero-panchkula.jpg";
 
 export default function SlidePhase1Dashboard() {
   return (

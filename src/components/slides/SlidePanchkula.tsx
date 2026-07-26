@@ -1,6 +1,6 @@
 import { MapPin, Building2, Users, TrendingUp, Layers, CheckCircle2 } from "lucide-react";
 import SlideLayout from "./SlideLayout";
-import heroPanchkula from "@/assets/hero-ludhiana.jpg";
+import heroPanchkula from "@/assets/hero-panchkula.jpg";
 
 const reasons = [
   { icon: Building2, text: "One of Haryana's largest and most densely populated cities" },

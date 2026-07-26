@@ -1,7 +1,7 @@
 import { Rocket, Clock, Target, Smartphone, ShieldCheck } from "lucide-react";
 import { Link } from "react-router-dom";
 import SlideLayout from "./SlideLayout";
-import heroPanchkula from "@/assets/hero-ludhiana.jpg";
+import heroPanchkula from "@/assets/hero-panchkula.jpg";
 
 export default function SlidePhase1Title() {
   return (
