@@ -128,8 +128,8 @@ export default function CommandDashboard() {
               <ShieldCheck className="w-5 h-5" />
             </div>
             <div>
-              <p className="font-black text-sm leading-tight">NashaMukt Punjab</p>
-              <p className="text-[10px] opacity-70">Command Centre · Ludhiana</p>
+              <p className="font-black text-sm leading-tight">NashaMukt Haryana</p>
+              <p className="text-[10px] opacity-70">Command Centre · Panchkula</p>
             </div>
           </div>
         </div>
@@ -380,7 +380,7 @@ function Overview({ stats, reports, zones, onOpenReport }: any) {
 
       {/* Live heatmap */}
       <div className="rounded-2xl border border-border bg-card p-5">
-        <h3 className="font-bold mb-4">Ludhiana — Live Heatmap</h3>
+        <h3 className="font-bold mb-4">Panchkula — Live Heatmap</h3>
         <div className="relative w-full h-72 rounded-xl bg-gradient-to-br from-secondary/40 to-secondary/10 border border-border overflow-hidden grid-pattern">
           {zones.map((z: any, i: number) => {
             const size = Math.min(24 + z.reportCount * 12, 96);
@@ -717,7 +717,7 @@ function NotificationsSection({ onOpenReport }: { onOpenReport: (id: string) => 
 // -------- Officers --------
 function OfficersSection() {
   const officers = [
-    { id: "PB-LDH-1042", name: "Insp. Harpreet Kaur", rank: "Inspector", station: "Ludhiana HQ", division: "Central", shift: "Day (08:00–20:00)", contact: "+91 98xx-xx-1042", active: 12, resolved: 87, sla: 94, arrests: 18, status: "On Duty" },
+    { id: "PB-LDH-1042", name: "Insp. Harpreet Kaur", rank: "Inspector", station: "Panchkula HQ", division: "Central", shift: "Day (08:00–20:00)", contact: "+91 98xx-xx-1042", active: 12, resolved: 87, sla: 94, arrests: 18, status: "On Duty" },
     { id: "PB-LDH-1087", name: "SI. Rajwinder Singh", rank: "Sub-Inspector", station: "Model Town PS", division: "South", shift: "Night (20:00–08:00)", contact: "+91 98xx-xx-1087", active: 8, resolved: 63, sla: 91, arrests: 12, status: "On Duty" },
     { id: "PB-LDH-1123", name: "SI. Manjeet Sharma", rank: "Sub-Inspector", station: "Civil Lines PS", division: "North", shift: "Day (08:00–20:00)", contact: "+91 98xx-xx-1123", active: 5, resolved: 44, sla: 88, arrests: 9, status: "On Duty" },
     { id: "PB-LDH-1204", name: "ASI. Jaspreet Kaur", rank: "Asst. Sub-Inspector", station: "Dugri PS", division: "South", shift: "Rotational", contact: "+91 98xx-xx-1204", active: 3, resolved: 31, sla: 85, arrests: 6, status: "On Duty" },
@@ -751,7 +751,7 @@ function OfficersSection() {
 
       <div className="rounded-2xl border border-border bg-card overflow-hidden">
         <div className="flex items-center justify-between px-4 py-3 border-b border-border">
-          <h3 className="font-bold">Officer Roster · Ludhiana Pilot</h3>
+          <h3 className="font-bold">Officer Roster · Panchkula Pilot</h3>
           <div className="flex items-center gap-2">
             <Button variant="outline" size="sm"><Download className="w-3 h-3 mr-1" /> Roster CSV</Button>
             <Button size="sm">+ Add Officer</Button>
@@ -1149,8 +1149,8 @@ function SettingsSection() {
         <div className="space-y-2 text-sm">
           {[
             { tier: "High · L0", to: "On-duty SI + Station SHO", channel: "SMS + Push + Radio" },
-            { tier: "High · L1 (15m)", to: "DSP Ludhiana", channel: "SMS + Call" },
-            { tier: "High · L2 (30m)", to: "SP Ludhiana Rural", channel: "Call" },
+            { tier: "High · L1 (15m)", to: "DSP Panchkula", channel: "SMS + Call" },
+            { tier: "High · L2 (30m)", to: "SP Panchkula Rural", channel: "Call" },
             { tier: "Medium · L0", to: "On-duty SI", channel: "Push" },
             { tier: "Medium · L1 (60m)", to: "SHO", channel: "SMS + Push" },
             { tier: "Low · L0", to: "PS Duty Officer", channel: "Push" },
@@ -1170,8 +1170,8 @@ function SettingsSection() {
         <div className="space-y-2 text-sm">
           {[
             { name: "Dial-112 (ERSS)", status: "Connected", color: "badge-success" },
-            { name: "CCTNS — Punjab Police", status: "Connected", color: "badge-success" },
-            { name: "Safe City CCTV Grid — Ludhiana", status: "Connected", color: "badge-success" },
+            { name: "CCTNS — Haryana Police", status: "Connected", color: "badge-success" },
+            { name: "Safe City CCTV Grid — Panchkula", status: "Connected", color: "badge-success" },
             { name: "NCB Narcotics DB", status: "Read-only", color: "badge-gold" },
             { name: "SMS Gateway (Govt.)", status: "Connected", color: "badge-success" },
             { name: "Aadhaar / e-KYC", status: "Not required (anonymous app)", color: "badge-blue" },

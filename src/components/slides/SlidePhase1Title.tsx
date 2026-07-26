@@ -1,12 +1,12 @@
 import { Rocket, Clock, Target, Smartphone, ShieldCheck } from "lucide-react";
 import { Link } from "react-router-dom";
 import SlideLayout from "./SlideLayout";
-import heroLudhiana from "@/assets/hero-ludhiana.jpg";
+import heroPanchkula from "@/assets/hero-ludhiana.jpg";
 
 export default function SlidePhase1Title() {
   return (
     <SlideLayout dark className="slide-gradient-blue relative overflow-hidden">
-      <img src={heroLudhiana} alt="" className="absolute inset-0 w-full h-full object-cover opacity-15" />
+      <img src={heroPanchkula} alt="" className="absolute inset-0 w-full h-full object-cover opacity-15" />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/30" />
       <div className="absolute inset-0 grid-pattern-dark" />
 
@@ -20,7 +20,7 @@ export default function SlidePhase1Title() {
 
         <h2 className="slide-title text-5xl md:text-7xl">
           Pilot Deployment
-          <br />in Ludhiana
+          <br />in Panchkula
         </h2>
 
         <div className="slide-accent-bar w-32" />
@@ -40,7 +40,7 @@ export default function SlidePhase1Title() {
         </div>
 
         <p className="text-lg font-medium opacity-70 max-w-xl pt-4">
-          "Identify real drug hotspots in Ludhiana within 30 days"
+          "Identify real drug hotspots in Panchkula within 30 days"
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-3 pt-6">

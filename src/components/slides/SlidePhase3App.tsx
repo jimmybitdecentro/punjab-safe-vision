@@ -1,11 +1,11 @@
 import { Shield, Bell, MapPin, Award, Flame, TrendingUp } from "lucide-react";
 import SlideLayout from "./SlideLayout";
-import heroPunjabMap from "@/assets/hero-punjab-map.jpg";
+import heroHaryanaMap from "@/assets/hero-punjab-map.jpg";
 
 export default function SlidePhase3App() {
   return (
     <SlideLayout dark className="slide-gradient-navy relative overflow-hidden">
-      <img src={heroPunjabMap} alt="" className="absolute inset-0 w-full h-full object-cover opacity-10" />
+      <img src={heroHaryanaMap} alt="" className="absolute inset-0 w-full h-full object-cover opacity-10" />
       <div className="absolute inset-0 grid-pattern-dark" />
       <div className="glow-orb w-64 h-64 bg-primary top-0 right-0" />
       <div className="glow-orb w-48 h-48 bg-trust-blue bottom-20 left-10 animate-pulse-glow" />
@@ -16,9 +16,9 @@ export default function SlidePhase3App() {
             Phase 3 — Citizen App v3
           </span>
           <h2 className="slide-title text-3xl md:text-4xl mt-4">
-            Punjab-Wide Citizen Platform
+            Haryana-Wide Citizen Platform
           </h2>
-          <p className="opacity-70 mt-2">Full-featured app empowering every citizen across Punjab</p>
+          <p className="opacity-70 mt-2">Full-featured app empowering every citizen across Haryana</p>
           <div className="slide-accent-bar w-24 mt-4" />
         </div>
 
@@ -28,12 +28,12 @@ export default function SlidePhase3App() {
             <div className="mockup-phone" style={{ borderColor: "hsl(220 40% 35%)" }}>
               <div className="mockup-phone-screen p-4 flex flex-col">
                 <div className="flex items-center justify-between mb-3">
-                  <p className="font-bold text-sm text-foreground">Punjab Dashboard</p>
+                  <p className="font-bold text-sm text-foreground">Haryana Dashboard</p>
                   <Shield className="w-4 h-4 text-primary" />
                 </div>
                 
                 <div className="p-3 rounded-xl bg-primary/10 border border-primary/20 mb-3 text-center">
-                  <p className="text-[9px] text-primary font-bold uppercase tracking-wider">Punjab Drug-Free Index</p>
+                  <p className="text-[9px] text-primary font-bold uppercase tracking-wider">Haryana Drug-Free Index</p>
                   <p className="text-3xl font-black text-primary mt-1">78.4%</p>
                   <p className="text-[8px] text-success font-semibold">↑ 12.3% from last quarter</p>
                 </div>
@@ -52,7 +52,7 @@ export default function SlidePhase3App() {
                   ))}
                 </div>
 
-                <p className="text-[9px] font-bold text-muted-foreground uppercase mb-2">My District — Ludhiana</p>
+                <p className="text-[9px] font-bold text-muted-foreground uppercase mb-2">My District — Panchkula</p>
                 <div className="p-2 rounded-lg bg-success/10 border border-success/20 flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full bg-success" />
                   <div>
@@ -69,7 +69,7 @@ export default function SlidePhase3App() {
               </div>
             </div>
             <p className="text-sm font-semibold">State Dashboard</p>
-            <p className="text-xs opacity-60 text-center">Punjab-wide stats & personal district status</p>
+            <p className="text-xs opacity-60 text-center">Haryana-wide stats & personal district status</p>
           </div>
 
           {/* Screen 2: Advanced Reporting */}
@@ -107,7 +107,7 @@ export default function SlidePhase3App() {
                     <MapPin className="w-3 h-3 text-primary" />
                     <div>
                       <p className="text-[8px] font-bold text-foreground">GPS Auto-captured</p>
-                      <p className="text-[7px] text-muted-foreground">30.9°N, 75.8°E — Ludhiana</p>
+                      <p className="text-[7px] text-muted-foreground">30.9°N, 75.8°E — Panchkula</p>
                     </div>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ export default function SlidePhase3App() {
                   <div className="w-16 h-16 rounded-full bg-gold/20 border-2 border-gold flex items-center justify-center mx-auto mb-2 shadow-lg shadow-gold/20">
                     <Award className="w-7 h-7 text-gold" />
                   </div>
-                  <p className="font-bold text-foreground text-sm">Punjab Hero — Level 5</p>
+                  <p className="font-bold text-foreground text-sm">Haryana Hero — Level 5</p>
                   <p className="text-[9px] text-muted-foreground">4,850 Points • Top 1%</p>
                   <div className="w-full h-2 rounded-full bg-secondary mt-2">
                     <div className="h-full w-[85%] rounded-full bg-gold" />
@@ -159,7 +159,7 @@ export default function SlidePhase3App() {
                   <TrendingUp className="w-4 h-4 text-primary" />
                   <div>
                     <p className="text-[9px] font-bold text-foreground">State Leaderboard</p>
-                    <p className="text-[7px] text-muted-foreground">You're #3 across all Punjab</p>
+                    <p className="text-[7px] text-muted-foreground">You're #3 across all Haryana</p>
                   </div>
                 </div>
               </div>

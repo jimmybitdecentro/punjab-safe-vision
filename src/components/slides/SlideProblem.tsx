@@ -3,7 +3,7 @@ import SlideLayout from "./SlideLayout";
 import heroProblem from "@/assets/hero-problem.jpg";
 
 const problems = [
-  { icon: AlertTriangle, title: "Widespread Drug Abuse", desc: "Punjab faces one of India's most severe drug crises, affecting youth, families, and communities across the state.", color: "text-accent" },
+  { icon: AlertTriangle, title: "Widespread Drug Abuse", desc: "Haryana faces one of India's most severe drug crises, affecting youth, families, and communities across the state.", color: "text-accent" },
   { icon: EyeOff, title: "Fear of Reporting", desc: "Citizens are afraid to report drug activity due to fear of retaliation and lack of anonymous channels.", color: "text-gold" },
   { icon: Database, title: "No Centralized Intelligence", desc: "Law enforcement lacks a unified system to aggregate, analyze, and act on drug-related intelligence.", color: "text-trust-blue" },
   { icon: Clock, title: "Delayed Response", desc: "Without real-time data, police action is reactive rather than preventive — critical time is lost.", color: "text-crimson" },
@@ -23,7 +23,7 @@ export default function SlideProblem() {
         <div>
           <span className="badge-pill badge-crimson mb-4">Section 1</span>
           <h2 className="slide-title text-4xl md:text-5xl text-foreground mt-4">
-            Punjab Needs a Digital
+            Haryana Needs a Digital
             <br />
             <span className="text-accent">Weapon Against Drugs</span>
           </h2>

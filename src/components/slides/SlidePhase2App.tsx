@@ -28,7 +28,7 @@ export default function SlidePhase2App() {
                   <Bell className="w-4 h-4 text-accent" />
                 </div>
                 {[
-                  { title: "High Activity Zone", area: "Civil Lines, Ludhiana", time: "2 min ago", severity: "high" },
+                  { title: "High Activity Zone", area: "Civil Lines, Panchkula", time: "2 min ago", severity: "high" },
                   { title: "New Hotspot Detected", area: "GT Road, Amritsar", time: "15 min ago", severity: "medium" },
                   { title: "Zone Cleared", area: "Model Town, Jalandhar", time: "1 hr ago", severity: "low" },
                   { title: "Patrol Deployed", area: "Sarabha Nagar", time: "2 hr ago", severity: "low" },
@@ -64,7 +64,7 @@ export default function SlidePhase2App() {
                     <Shield className="w-7 h-7 text-primary" />
                   </div>
                   <p className="font-bold text-foreground text-sm">Your Contribution</p>
-                  <p className="text-[10px] text-muted-foreground">Making Punjab Safer Together</p>
+                  <p className="text-[10px] text-muted-foreground">Making Haryana Safer Together</p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-2 mb-3">
@@ -86,7 +86,7 @@ export default function SlidePhase2App() {
                     <Star className="w-4 h-4 text-gold" />
                     <div>
                       <p className="text-[9px] font-bold text-foreground">Top 5% Contributor</p>
-                      <p className="text-[7px] text-muted-foreground">In Ludhiana District</p>
+                      <p className="text-[7px] text-muted-foreground">In Panchkula District</p>
                     </div>
                   </div>
                 </div>

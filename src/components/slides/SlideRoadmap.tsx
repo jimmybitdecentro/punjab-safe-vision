@@ -4,7 +4,7 @@ import SlideLayout from "./SlideLayout";
 const phases = [
   {
     phase: "Phase 1",
-    title: "Ludhiana Pilot",
+    title: "Panchkula Pilot",
     duration: "30–40 Days",
     items: ["Citizen Mobile App", "Admin Dashboard", "Basic AI Heatmaps", "Report Tracking"],
     color: "bg-primary",
@@ -24,7 +24,7 @@ const phases = [
   },
   {
     phase: "Phase 3",
-    title: "Punjab-Wide Grid",
+    title: "Haryana-Wide Grid",
     duration: "6–8 Months",
     items: ["Full State Coverage", "Predictive AI", "CCTV Integration", "Command Center"],
     color: "bg-accent",
