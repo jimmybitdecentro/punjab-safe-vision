@@ -31,7 +31,7 @@ export default function SlidePhase2Gamification() {
                   <div className="w-14 h-14 rounded-full bg-gold/20 border-2 border-gold flex items-center justify-center mx-auto shadow-lg shadow-gold/20">
                     <Trophy className="w-6 h-6 text-gold" />
                   </div>
-                  <p className="font-bold text-sm text-foreground">Haryana Protector</p>
+                  <p className="font-bold text-sm text-foreground">Himachal Protector</p>
                   <p className="text-[10px] text-muted-foreground">Level 3 • 1,250 Points</p>
                   <div className="w-full h-2 rounded-full bg-secondary">
                     <div className="h-full w-3/4 rounded-full bg-gold" />
@@ -87,7 +87,7 @@ export default function SlidePhase2Gamification() {
                 <h3 className="font-bold text-foreground">Badges</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                <span className="badge-pill badge-blue">Haryana Protector</span>
+                <span className="badge-pill badge-blue">Himachal Protector</span>
                 <span className="badge-pill badge-gold">Community Watch Hero</span>
                 <span className="badge-pill badge-success">First Responder</span>
               </div>

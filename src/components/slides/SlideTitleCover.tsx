@@ -21,13 +21,13 @@ export default function SlideTitleCover() {
       <div className="text-center space-y-8 relative z-10">
         <div className="inline-flex items-center gap-2 badge-pill bg-primary-foreground/10 text-primary-foreground border border-primary-foreground/20">
           <Shield className="w-4 h-4" />
-          Government of Haryana Initiative
+          Government of Himachal Initiative
         </div>
 
         <h1 className="slide-title text-5xl md:text-7xl lg:text-8xl leading-tight">
           NashaMukt
           <br />
-          <span className="text-trust-blue">Haryana</span>
+          <span className="text-trust-blue">Himachal</span>
         </h1>
 
         <div className="slide-accent-bar w-32 mx-auto" />

@@ -1,18 +1,18 @@
 import { MapPin, Building2, Users, TrendingUp, Layers, CheckCircle2 } from "lucide-react";
 import SlideLayout from "./SlideLayout";
-import heroPanchkula from "@/assets/hero-panchkula.jpg";
+import heroUna from "@/assets/hero-una.jpg";
 
 const reasons = [
-  { icon: Building2, text: "Haryana's administrative gateway — adjoining the State Police HQ ecosystem" },
+  { icon: Building2, text: "Himachal's administrative gateway — adjoining the State Police HQ ecosystem" },
   { icon: Users, text: "Compact, high-density urban sectors with strong civic participation" },
   { icon: Layers, text: "Perfect mix of urban sectors, Kalka–Pinjore belt and rural Barwala / Raipur Rani blocks" },
   { icon: MapPin, text: "Tri-state border district (Punjab, Himachal, Chandigarh) — key transit corridor" },
   { icon: CheckCircle2, text: "Strong administrative infrastructure and Safe City CCTV base for pilot execution" },
-  { icon: TrendingUp, text: "High scalability — if it works here, it works across all 22 Haryana districts" },
+  { icon: TrendingUp, text: "High scalability — if it works here, it works across all 22 Himachal districts" },
 ];
 
 
-export default function SlidePanchkula() {
+export default function SlideUna() {
   return (
     <SlideLayout className="relative overflow-hidden">
       <div className="absolute inset-0 grid-pattern" />
@@ -22,23 +22,23 @@ export default function SlidePanchkula() {
         <div>
           <span className="badge-pill badge-blue mb-4">Section 2</span>
           <h2 className="slide-title text-4xl md:text-5xl text-foreground mt-4">
-            Why <span className="text-primary">Panchkula</span> as Pilot City
+            Why <span className="text-primary">Una</span> as Pilot City
           </h2>
           <div className="slide-accent-bar w-24 mt-4" />
         </div>
 
         <div className="grid md:grid-cols-2 gap-10 items-start">
-          {/* Panchkula aerial image */}
+          {/* Una aerial image */}
           <div className="space-y-4">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img src={heroPanchkula} alt="Panchkula aerial view with zone overlays" className="w-full h-72 object-cover" loading="lazy" width={1920} height={1080} />
+              <img src={heroUna} alt="Una aerial view with zone overlays" className="w-full h-72 object-cover" loading="lazy" width={1920} height={1080} />
               <div className="absolute inset-0 bg-gradient-to-t from-card/80 to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center">
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="font-bold text-foreground text-sm">Panchkula, Haryana</p>
+                  <p className="font-bold text-foreground text-sm">Una, Himachal</p>
                   <p className="text-xs text-muted-foreground">Phase 1 Pilot Zone</p>
                 </div>
               </div>
@@ -76,7 +76,7 @@ export default function SlidePanchkula() {
 
             <div className="mt-6 p-4 rounded-xl bg-primary/5 border border-primary/20">
               <p className="text-sm font-semibold text-primary italic">
-                "Panchkula provides the perfect real-world environment to validate and scale a statewide solution."
+                "Una provides the perfect real-world environment to validate and scale a statewide solution."
               </p>
             </div>
           </div>

@@ -27,7 +27,7 @@ export default function SlidePhase1App() {
                   <div className="w-12 h-12 rounded-full bg-primary mx-auto flex items-center justify-center mb-2 shadow-lg shadow-primary/30">
                     <span className="text-primary-foreground font-black text-lg">N</span>
                   </div>
-                  <p className="font-bold text-sm text-foreground">NashaMukt Haryana</p>
+                  <p className="font-bold text-sm text-foreground">NashaMukt Himachal</p>
                   <p className="text-[10px] text-muted-foreground">Report Anonymously. Stay Safe.</p>
                 </div>
                 <button className="w-full py-3 rounded-xl bg-accent text-accent-foreground font-bold text-sm flex items-center justify-center gap-2 mb-3 shadow-lg shadow-accent/20">

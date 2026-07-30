@@ -19,14 +19,14 @@ export default function SlideProblem2() {
         <h2 className="slide-title text-4xl md:text-6xl leading-tight max-w-4xl">
           "Every day without action,
           <br />
-          Haryana loses more of its youth."
+          Himachal loses more of its youth."
         </h2>
         <div className="slide-accent-bar w-32" />
 
         {/* Heatmap visualization */}
         <div className="relative w-full max-w-lg h-64 rounded-2xl overflow-hidden bg-primary-foreground/5 border border-primary-foreground/10 backdrop-blur-sm">
           <p className="text-xs uppercase tracking-widest opacity-40 absolute top-4 left-4">
-            Drug Activity Hotspots — Haryana
+            Drug Activity Hotspots — Himachal
           </p>
           <div className="heatmap-dot heatmap-red w-16 h-16" style={{ top: "30%", left: "25%" }} />
           <div className="heatmap-dot heatmap-red w-20 h-20" style={{ top: "40%", left: "55%" }} />

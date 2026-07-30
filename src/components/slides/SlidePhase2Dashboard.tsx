@@ -24,7 +24,7 @@ export default function SlidePhase2Dashboard() {
               <div className="w-3 h-3 rounded-full bg-destructive" />
               <div className="w-3 h-3 rounded-full bg-gold" />
               <div className="w-3 h-3 rounded-full bg-success" />
-              <span className="text-xs font-semibold text-muted-foreground ml-2">NashaMukt Haryana — Admin Dashboard v2.0</span>
+              <span className="text-xs font-semibold text-muted-foreground ml-2">NashaMukt Himachal — Admin Dashboard v2.0</span>
             </div>
             <span className="text-[10px] text-muted-foreground">Last synced: 2 min ago</span>
           </div>
@@ -61,7 +61,7 @@ export default function SlidePhase2Dashboard() {
                 </div>
                 <div className="flex items-end gap-3 h-32 pt-4">
                   {[
-                    { name: "Panchkula", h: "100%", cases: 89 },
+                    { name: "Una", h: "100%", cases: 89 },
                     { name: "Ambala", h: "78%", cases: 67 },
                     { name: "Yamunanagar", h: "65%", cases: 52 },
                     { name: "Kurukshetra", h: "55%", cases: 44 },

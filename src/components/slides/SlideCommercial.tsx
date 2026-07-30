@@ -19,9 +19,9 @@ export default function SlideCommercial() {
 
         <div className="grid md:grid-cols-3 gap-6">
           {[
-            { phase: "Phase 1", title: "Pilot — Panchkula", price: "₹10 – ₹30 Lakhs", items: ["Citizen App", "Admin Dashboard", "Basic AI", "30-day deployment"], highlight: false, gradient: "from-primary/5" },
+            { phase: "Phase 1", title: "Pilot — Una", price: "₹10 – ₹30 Lakhs", items: ["Citizen App", "Admin Dashboard", "Basic AI", "30-day deployment"], highlight: false, gradient: "from-primary/5" },
             { phase: "Phase 2", title: "Multi-District", price: "₹1.5 – ₹3 Crore", items: ["Advanced AI", "Gamification", "8+ Districts", "Data Intelligence"], highlight: true, gradient: "from-primary/10" },
-            { phase: "Phase 3", title: "Full Haryana", price: "₹5 – ₹12 Crore", items: ["State-wide grid", "Predictive AI", "CCTV Integration", "Command Center"], highlight: false, gradient: "from-accent/5" },
+            { phase: "Phase 3", title: "Full Himachal", price: "₹5 – ₹12 Crore", items: ["State-wide grid", "Predictive AI", "CCTV Integration", "Command Center"], highlight: false, gradient: "from-accent/5" },
           ].map((tier, i) => (
             <div key={i} className={`stat-card-hover space-y-4 relative bg-gradient-to-b ${tier.gradient} to-transparent ${tier.highlight ? "ring-2 ring-primary shadow-lg shadow-primary/10" : ""}`}>
               {tier.highlight && (
