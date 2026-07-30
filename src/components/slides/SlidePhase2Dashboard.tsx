@@ -85,11 +85,11 @@ export default function SlidePhase2Dashboard() {
                   <Users className="w-4 h-4 text-success" /> Top Officers
                 </p>
                 {[
-                  { name: "SHO R. Singh", cases: 34, rate: "96%" },
-                  { name: "SI K. Kaur", cases: 28, rate: "93%" },
+                  { name: "SHO R. Thakur", cases: 34, rate: "96%" },
+                  { name: "SI K. Chandel", cases: 28, rate: "93%" },
                   { name: "ASI M. Sharma", cases: 25, rate: "91%" },
-                  { name: "SHO P. Kumar", cases: 22, rate: "89%" },
-                  { name: "SI A. Gill", cases: 19, rate: "87%" },
+                  { name: "SHO P. Katoch", cases: 22, rate: "89%" },
+                  { name: "SI A. Rana", cases: 19, rate: "87%" },
                 ].map((o, i) => (
                   <div key={i} className="flex items-center justify-between text-[10px] py-1 border-b border-border last:border-0">
                     <div className="flex items-center gap-2">

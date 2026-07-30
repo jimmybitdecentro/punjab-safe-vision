@@ -10,7 +10,7 @@ import bitdecentroLogo from "@/assets/bitdecentro-logo.png";
 export default function CommandLogin() {
   const nav = useNavigate();
   const [badgeId, setBadgeId] = useState("PB-LDH-1042");
-  const [name, setName] = useState("Insp. H. Kaur");
+  const [name, setName] = useState("Insp. S. Thakur");
   const [station, setStation] = useState("Una HQ");
   const [password, setPassword] = useState("");
 

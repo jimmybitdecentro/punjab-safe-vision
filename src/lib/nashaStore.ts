@@ -391,7 +391,7 @@ function makeRandomReport(i: number, now: number): Report {
     address: p.name,
     createdAt: d.getTime(),
     status,
-    assignedTo: status === "New" ? undefined : ["Insp. H. Kaur", "SI. R. Singh", "SI. M. Sharma", "ASI. J. Kaur"][i % 4],
+    assignedTo: status === "New" ? undefined : ["Insp. S. Thakur", "SI. R. Chandel", "SI. M. Sharma", "ASI. P. Rana"][i % 4],
     evidence: [],
     zoneId: zoneIdFromCoords(lat, lng),
     severity,

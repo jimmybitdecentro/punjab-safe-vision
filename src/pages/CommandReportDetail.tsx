@@ -59,7 +59,7 @@ export default function CommandReportDetail() {
   const timeline = [...sameLocation].sort((a, b) => a.createdAt - b.createdAt);
 
   const setStatus = (s: ReportStatus) => {
-    updateReportStatus(report.id, s, s === "Assigned" ? "Insp. H. Kaur" : undefined);
+    updateReportStatus(report.id, s, s === "Assigned" ? "Insp. S. Thakur" : undefined);
     toast.success(`Report ${report.id} → ${s}`);
   };
 
