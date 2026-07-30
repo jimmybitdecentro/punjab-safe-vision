@@ -717,14 +717,14 @@ function NotificationsSection({ onOpenReport }: { onOpenReport: (id: string) => 
 // -------- Officers --------
 function OfficersSection() {
   const officers = [
-    { id: "HP-UNA-1042", name: "Insp. Sunita Dahiya", rank: "Inspector", station: "Una Sector 5 PS", division: "Central", shift: "Day (08:00–20:00)", contact: "+91 98xx-xx-1042", active: 12, resolved: 87, sla: 94, arrests: 18, status: "On Duty" },
-    { id: "HP-UNA-1087", name: "SI. Rajesh Kadyan", rank: "Sub-Inspector", station: "Sector 20 PS", division: "South", shift: "Night (20:00–08:00)", contact: "+91 98xx-xx-1087", active: 8, resolved: 63, sla: 91, arrests: 12, status: "On Duty" },
-    { id: "HP-UNA-1123", name: "SI. Manjeet Sharma", rank: "Sub-Inspector", station: "Old Una PS", division: "North", shift: "Day (08:00–20:00)", contact: "+91 98xx-xx-1123", active: 5, resolved: 44, sla: 88, arrests: 9, status: "On Duty" },
-    { id: "HP-UNA-1204", name: "ASI. Poonam Rathee", rank: "Asst. Sub-Inspector", station: "MDC Sector 5 PS", division: "South", shift: "Rotational", contact: "+91 98xx-xx-1204", active: 3, resolved: 31, sla: 85, arrests: 6, status: "On Duty" },
-    { id: "HP-UNA-1298", name: "HC. Pawan Verma", rank: "Head Constable", station: "Kalka PS", division: "North", shift: "Night (20:00–08:00)", contact: "+91 98xx-xx-1298", active: 2, resolved: 22, sla: 82, arrests: 4, status: "On Duty" },
-    { id: "HP-UNA-1345", name: "SI. Amit Chaudhary", rank: "Sub-Inspector", station: "Pinjore PS", division: "East", shift: "Day (08:00–20:00)", contact: "+91 98xx-xx-1345", active: 6, resolved: 38, sla: 89, arrests: 7, status: "On Duty" },
-    { id: "HP-UNA-1402", name: "HC. Sarita Malik", rank: "Head Constable", station: "Barwala PS", division: "East", shift: "Rotational", contact: "+91 98xx-xx-1402", active: 4, resolved: 29, sla: 87, arrests: 5, status: "Leave" },
-    { id: "HP-UNA-1487", name: "ASI. Balwant Rai", rank: "Asst. Sub-Inspector", station: "Raipur Rani PS", division: "West", shift: "Night (20:00–08:00)", contact: "+91 98xx-xx-1487", active: 7, resolved: 41, sla: 90, arrests: 8, status: "On Duty" },
+    { id: "HP-UNA-1042", name: "Insp. Sunita Thakur", rank: "Inspector", station: "Una Sadar PS", division: "Una Sadar", shift: "Day (08:00–20:00)", contact: "+91 98xx-xx-1042", active: 12, resolved: 87, sla: 94, arrests: 18, status: "On Duty" },
+    { id: "HP-UNA-1087", name: "SI. Rajesh Chandel", rank: "Sub-Inspector", station: "Mehatpur PS", division: "Mehatpur", shift: "Night (20:00–08:00)", contact: "+91 98xx-xx-1087", active: 8, resolved: 63, sla: 91, arrests: 12, status: "On Duty" },
+    { id: "HP-UNA-1123", name: "SI. Manjeet Sharma", rank: "Sub-Inspector", station: "Santoshgarh PS", division: "Haroli", shift: "Day (08:00–20:00)", contact: "+91 98xx-xx-1123", active: 5, resolved: 44, sla: 88, arrests: 9, status: "On Duty" },
+    { id: "HP-UNA-1204", name: "ASI. Poonam Rana", rank: "Asst. Sub-Inspector", station: "Tahliwal PS", division: "Haroli", shift: "Rotational", contact: "+91 98xx-xx-1204", active: 3, resolved: 31, sla: 85, arrests: 6, status: "On Duty" },
+    { id: "HP-UNA-1298", name: "HC. Pawan Verma", rank: "Head Constable", station: "Gagret PS", division: "Amb", shift: "Night (20:00–08:00)", contact: "+91 98xx-xx-1298", active: 2, resolved: 22, sla: 82, arrests: 4, status: "On Duty" },
+    { id: "HP-UNA-1345", name: "SI. Amit Katoch", rank: "Sub-Inspector", station: "Amb PS", division: "Amb", shift: "Day (08:00–20:00)", contact: "+91 98xx-xx-1345", active: 6, resolved: 38, sla: 89, arrests: 7, status: "On Duty" },
+    { id: "HP-UNA-1402", name: "HC. Sarita Kanwar", rank: "Head Constable", station: "Bangana PS", division: "Bangana", shift: "Rotational", contact: "+91 98xx-xx-1402", active: 4, resolved: 29, sla: 87, arrests: 5, status: "Leave" },
+    { id: "HP-UNA-1487", name: "ASI. Balwant Rai", rank: "Asst. Sub-Inspector", station: "Daulatpur Chowk PS", division: "Amb", shift: "Night (20:00–08:00)", contact: "+91 98xx-xx-1487", active: 7, resolved: 41, sla: 90, arrests: 8, status: "On Duty" },
   ];
 
   const totals = officers.reduce((a, o) => ({ active: a.active + o.active, resolved: a.resolved + o.resolved, arrests: a.arrests + o.arrests }), { active: 0, resolved: 0, arrests: 0 });
