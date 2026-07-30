@@ -5,10 +5,10 @@ import heroUna from "@/assets/hero-una.jpg";
 const reasons = [
   { icon: Building2, text: "Himachal's administrative gateway — adjoining the State Police HQ ecosystem" },
   { icon: Users, text: "Compact, high-density urban sectors with strong civic participation" },
-  { icon: Layers, text: "Perfect mix of urban sectors, Kalka–Pinjore belt and rural Barwala / Raipur Rani blocks" },
+  { icon: Layers, text: "Perfect mix of Una town, the Mehatpur–Tahliwal industrial belt and rural Amb / Bangana blocks" },
   { icon: MapPin, text: "Tri-state border district (Punjab, Himachal, Chandigarh) — key transit corridor" },
   { icon: CheckCircle2, text: "Strong administrative infrastructure and Safe City CCTV base for pilot execution" },
-  { icon: TrendingUp, text: "High scalability — if it works here, it works across all 22 Himachal districts" },
+  { icon: TrendingUp, text: "High scalability — if it works here, it works across all 12 Himachal districts" },
 ];
 
 

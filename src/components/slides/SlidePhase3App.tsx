@@ -40,7 +40,7 @@ export default function SlidePhase3App() {
 
                 <div className="grid grid-cols-2 gap-2 mb-3">
                   {[
-                    { val: "23", label: "Districts Active" },
+                    { val: "12", label: "Districts Active" },
                     { val: "47%", label: "Crime Down" },
                     { val: "4.2L", label: "Citizens Active" },
                     { val: "98%", label: "Report Rate" },

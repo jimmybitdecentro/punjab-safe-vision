@@ -29,8 +29,8 @@ export default function SlidePhase2App() {
                 </div>
                 {[
                   { title: "High Activity Zone", area: "Civil Lines, Una", time: "2 min ago", severity: "high" },
-                  { title: "New Hotspot Detected", area: "GT Road, Ambala", time: "15 min ago", severity: "medium" },
-                  { title: "Zone Cleared", area: "Sector 14, Karnal", time: "1 hr ago", severity: "low" },
+                  { title: "New Hotspot Detected", area: "Mehatpur Chowk, Una", time: "15 min ago", severity: "medium" },
+                  { title: "Zone Cleared", area: "Bus Stand, Bilaspur", time: "1 hr ago", severity: "low" },
                   { title: "Patrol Deployed", area: "Sarabha Nagar", time: "2 hr ago", severity: "low" },
                 ].map((a, i) => (
                   <div key={i} className={`mb-2 p-2.5 rounded-xl border text-left ${a.severity === "high" ? "bg-accent/5 border-accent/20" : a.severity === "medium" ? "bg-gold/5 border-gold/20" : "bg-success/5 border-success/20"}`}>

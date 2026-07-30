@@ -62,13 +62,13 @@ export default function SlidePhase2Dashboard() {
                 <div className="flex items-end gap-3 h-32 pt-4">
                   {[
                     { name: "Una", h: "100%", cases: 89 },
-                    { name: "Ambala", h: "78%", cases: 67 },
+                    { name: "Bilaspur", h: "78%", cases: 67 },
                     { name: "Yamunanagar", h: "65%", cases: 52 },
                     { name: "Kurukshetra", h: "55%", cases: 44 },
-                    { name: "Karnal", h: "45%", cases: 36 },
+                    { name: "Hamirpur", h: "45%", cases: 36 },
                     { name: "Sonipat", h: "38%", cases: 28 },
-                    { name: "Panipat", h: "30%", cases: 22 },
-                    { name: "Kaithal", h: "22%", cases: 15 },
+                    { name: "Solan", h: "30%", cases: 22 },
+                    { name: "Kangra", h: "22%", cases: 15 },
                   ].map((d, i) => (
                     <div key={i} className="flex-1 flex flex-col items-center gap-1">
                       <span className="text-[8px] font-bold text-foreground">{d.cases}</span>

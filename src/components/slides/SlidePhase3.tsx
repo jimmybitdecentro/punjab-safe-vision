@@ -46,7 +46,7 @@ export default function SlidePhase3() {
           </div>
           <div className="p-4 bg-primary-foreground/5 backdrop-blur-sm">
             <div className="grid grid-cols-5 gap-3">
-              {["Una", "Ambala", "Gurugram", "Hisar", "Sirsa"].map((city, i) => (
+              {["Una", "Bilaspur", "Hamirpur", "Solan", "Kangra"].map((city, i) => (
                 <div key={i} className="text-center p-3 rounded-lg bg-primary-foreground/5">
                   <div className={`w-3 h-3 rounded-full mx-auto mb-2 ${i < 2 ? "bg-success" : "bg-gold"}`} />
                   <p className="text-xs font-semibold">{city}</p>

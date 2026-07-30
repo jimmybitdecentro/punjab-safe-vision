@@ -37,7 +37,7 @@ export default function SlidePhase3Dashboard() {
             {/* State stats */}
             <div className="grid grid-cols-5 gap-3">
               {[
-                { icon: Map, label: "Districts Active", value: "22/22", sub: "Full Coverage" },
+                { icon: Map, label: "Districts Active", value: "12/12", sub: "Full Coverage" },
                 { icon: TrendingDown, label: "Crime Reduction", value: "47%", sub: "vs Last Year" },
                 { icon: AlertTriangle, label: "Active Alerts", value: "128", sub: "34 Critical" },
                 { icon: Eye, label: "CCTV Feeds", value: "2,400+", sub: "State-wide" },
@@ -94,9 +94,9 @@ export default function SlidePhase3Dashboard() {
                     <Zap className="w-3 h-3" /> AI Predicted Hotspots — Next 48hrs
                   </p>
                   {[
-                    { area: "NH-44 Corridor, Karnal", risk: "92%", type: "Supply Route" },
-                    { area: "Industrial Area, Hisar", risk: "87%", type: "Distribution" },
-                    { area: "Border Zone, Sirsa", risk: "85%", type: "Smuggling" },
+                    { area: "NH-503 Corridor, Kangra", risk: "92%", type: "Supply Route" },
+                    { area: "Baddi Industrial Belt, Solan", risk: "87%", type: "Distribution" },
+                    { area: "Malana Belt, Kullu", risk: "85%", type: "Smuggling" },
                   ].map((p, i) => (
                     <div key={i} className="flex items-center justify-between p-2 rounded-lg bg-primary-foreground/5 mb-1.5 last:mb-0">
                       <div>
