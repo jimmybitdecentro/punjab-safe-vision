@@ -120,18 +120,18 @@ export function locationKey(lat: number, lng: number) {
 
 // Predefined Una points to make lat/lng realistic in the demo.
 export const UNA_POINTS: { name: string; lat: number; lng: number }[] = [
-  { name: "Model Town, Una", lat: 30.8622, lng: 75.8156 },
-  { name: "Sarabha Nagar, Una", lat: 30.8845, lng: 75.8341 },
-  { name: "Civil Lines, Una", lat: 30.9083, lng: 75.8467 },
-  { name: "Dugri Phase 1, Una", lat: 30.8489, lng: 75.8371 },
-  { name: "Haibowal Kalan, Una", lat: 30.9192, lng: 75.8271 },
-  { name: "Basti Jodhewal, Una", lat: 30.9345, lng: 75.8501 },
-  { name: "Salem Tabri, Una", lat: 30.9280, lng: 75.8620 },
-  { name: "Focal Point, Una", lat: 30.8730, lng: 75.9110 },
-  { name: "Jamalpur, Una", lat: 30.9420, lng: 75.8710 },
-  { name: "Shimlapuri, Una", lat: 30.9218, lng: 75.8555 },
-  { name: "Gill Road, Una", lat: 30.8945, lng: 75.8622 },
-  { name: "Threekey Chowk, Una", lat: 30.8802, lng: 75.8480 },
+  { name: "Main Bazaar, Una", lat: 31.4685, lng: 76.2708 },
+  { name: "Mehatpur, Una", lat: 31.4361, lng: 76.2242 },
+  { name: "Santoshgarh, Una", lat: 31.4022, lng: 76.2004 },
+  { name: "Tahliwal Industrial Area, Una", lat: 31.4183, lng: 76.2601 },
+  { name: "Gagret, Una", lat: 31.6559, lng: 76.0797 },
+  { name: "Amb, Una", lat: 31.6900, lng: 76.1300 },
+  { name: "Daulatpur Chowk, Una", lat: 31.6392, lng: 76.1150 },
+  { name: "Haroli, Una", lat: 31.3820, lng: 76.2200 },
+  { name: "Bangana, Una", lat: 31.5647, lng: 76.4172 },
+  { name: "Chintpurni, Una", lat: 31.5750, lng: 76.1300 },
+  { name: "Basdehra, Una", lat: 31.3670, lng: 76.2380 },
+  { name: "Lalsinghi, Una", lat: 31.4520, lng: 76.3120 },
 ];
 
 
