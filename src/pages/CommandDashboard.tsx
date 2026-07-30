@@ -1233,7 +1233,7 @@ function ReportDialog({ report, onClose }: { report: Report | null; onClose: () 
   const otherInZone = getReports().filter((r) => r.zoneId === report.zoneId && r.id !== report.id);
 
   const setStatus = (s: ReportStatus) => {
-    updateReportStatus(report.id, s, s === "Assigned" ? "Insp. H. Kaur" : undefined);
+    updateReportStatus(report.id, s, s === "Assigned" ? "Insp. S. Thakur" : undefined);
     toast.success(`Report ${report.id} → ${s}`);
     onClose();
   };
