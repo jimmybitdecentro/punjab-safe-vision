@@ -10,8 +10,8 @@ import bitdecentroLogo from "@/assets/bitdecentro-logo.png";
 export default function CommandLogin() {
   const nav = useNavigate();
   const [badgeId, setBadgeId] = useState("PB-LDH-1042");
-  const [name, setName] = useState("Insp. H. Kaur");
-  const [station, setStation] = useState("Panchkula HQ");
+  const [name, setName] = useState("Insp. S. Thakur");
+  const [station, setStation] = useState("Una HQ");
   const [password, setPassword] = useState("");
 
   const submit = (e: React.FormEvent) => {
@@ -35,7 +35,7 @@ export default function CommandLogin() {
           </div>
           <div className="text-primary-foreground">
             <h1 className="font-black text-2xl leading-tight">Command Centre</h1>
-            <p className="text-xs opacity-70">NashaMukt Haryana · Restricted Access</p>
+            <p className="text-xs opacity-70">NashaMukt Himachal · Restricted Access</p>
           </div>
         </div>
 

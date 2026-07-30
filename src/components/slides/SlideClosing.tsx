@@ -18,7 +18,7 @@ export default function SlideClosing() {
         <Shield className="w-16 h-16 mx-auto opacity-40" />
 
         <h2 className="slide-title text-3xl md:text-4xl lg:text-5xl leading-tight">
-          "This is not just a software platform — this is Haryana's digital mission to eliminate drugs through{" "}
+          "This is not just a software platform — this is Himachal's digital mission to eliminate drugs through{" "}
           <span className="text-trust-blue">technology</span>,{" "}
           <span className="text-gold">transparency</span>, and{" "}
           <span className="text-success">citizen empowerment</span>."
@@ -28,7 +28,7 @@ export default function SlideClosing() {
 
         <div className="pt-8 space-y-6">
           <h3 className="text-2xl font-bold">Thank You</h3>
-          <p className="opacity-60 text-sm">NashaMukt Haryana — Building a Safer Future Together</p>
+          <p className="opacity-60 text-sm">NashaMukt Himachal — Building a Safer Future Together</p>
 
           <div className="flex flex-col items-center gap-4 pt-4">
             <img src={bitdecentroLogo} alt="BitDecentro" className="h-10 opacity-90" />

@@ -16,7 +16,7 @@ import {
 
 import {
   Evidence,
-  PANCHKULA_POINTS,
+  UNA_POINTS,
   ReportCategory,
   addReport,
   getReports,
@@ -91,7 +91,7 @@ export default function CitizenApp() {
       toast.error("Please add a short description");
       return;
     }
-    const loc = PANCHKULA_POINTS[locIdx];
+    const loc = UNA_POINTS[locIdx];
     addReport({
       citizenId: user.id,
       citizenName: anonymous ? "Anonymous" : user.name,
@@ -111,7 +111,7 @@ export default function CitizenApp() {
   };
 
   return (
-    <MobileFrame caption={`NashaMukt Haryana · ${tab === "report" ? "Report Incident" : tab === "history" ? "My Reports" : "Safety Zones"}`}>
+    <MobileFrame caption={`NashaMukt Himachal · ${tab === "report" ? "Report Incident" : tab === "history" ? "My Reports" : "Safety Zones"}`}>
       <div className="w-full min-h-full flex flex-col bg-card">
 
         {/* Header */}
@@ -120,8 +120,8 @@ export default function CitizenApp() {
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6" />
               <div>
-                <p className="font-black leading-tight">NashaMukt Haryana</p>
-                <p className="text-[10px] opacity-80">Pilot · Panchkula</p>
+                <p className="font-black leading-tight">NashaMukt Himachal</p>
+                <p className="text-[10px] opacity-80">Pilot · Una</p>
               </div>
             </div>
             <button
@@ -181,13 +181,13 @@ export default function CitizenApp() {
                 <Select value={String(locIdx)} onValueChange={(v) => setLocIdx(Number(v))}>
                   <SelectTrigger><SelectValue /></SelectTrigger>
                   <SelectContent>
-                    {PANCHKULA_POINTS.map((p, i) => (
+                    {UNA_POINTS.map((p, i) => (
                       <SelectItem key={p.name} value={String(i)}>{p.name}</SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
                 <p className="text-[10px] text-muted-foreground mt-1">
-                  Lat {PANCHKULA_POINTS[locIdx].lat.toFixed(4)}, Lng {PANCHKULA_POINTS[locIdx].lng.toFixed(4)} · Auto-detected via GPS
+                  Lat {UNA_POINTS[locIdx].lat.toFixed(4)}, Lng {UNA_POINTS[locIdx].lng.toFixed(4)} · Auto-detected via GPS
                 </p>
               </div>
 
@@ -314,7 +314,7 @@ export default function CitizenApp() {
               <p className="text-sm font-semibold mb-2">Safety zones near you</p>
               <div className="relative w-full h-64 rounded-xl bg-secondary/50 border border-border overflow-hidden">
                 <div className="absolute inset-0 grid-pattern" />
-                {PANCHKULA_POINTS.map((p, i) => {
+                {UNA_POINTS.map((p, i) => {
                   const reports = getReports().filter((r) => r.address === p.name).length;
                   const color = reports >= 3 ? "bg-accent" : reports >= 1 ? "bg-[hsl(var(--gold))]" : "bg-[hsl(var(--success))]";
                   return (

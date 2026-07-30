@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import SlideTitleCover from "./slides/SlideTitleCover";
 import SlideProblem from "./slides/SlideProblem";
 import SlideProblem2 from "./slides/SlideProblem2";
-import SlidePanchkula from "./slides/SlidePanchkula";
+import SlideUna from "./slides/SlideUna";
 import SlideSolution from "./slides/SlideSolution";
 import SlidePhase1Title from "./slides/SlidePhase1Title";
 import SlidePhase1App from "./slides/SlidePhase1App";
@@ -27,7 +27,7 @@ const slides = [
   SlideTitleCover,
   SlideProblem,
   SlideProblem2,
-  SlidePanchkula,
+  SlideUna,
   SlideSolution,
   SlidePhase1Title,
   SlidePhase1App,
