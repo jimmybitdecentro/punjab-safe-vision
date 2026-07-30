@@ -3,8 +3,8 @@ import SlideLayout from "./SlideLayout";
 import heroUna from "@/assets/hero-una.jpg";
 
 const reasons = [
-  { icon: Building2, text: "Himachal's administrative gateway — adjoining the State Police HQ ecosystem" },
-  { icon: Users, text: "Compact, high-density urban sectors with strong civic participation" },
+  { icon: Building2, text: "Himachal's industrial gateway district — high inflow of migrant workforce and transit traffic" },
+  { icon: Users, text: "Compact district with strong civic participation and high panchayat engagement" },
   { icon: Layers, text: "Perfect mix of Una town, the Mehatpur–Tahliwal industrial belt and rural Amb / Bangana blocks" },
   { icon: MapPin, text: "Border district with Punjab — key transit corridor on the Punjab–Himachal drug route" },
   { icon: CheckCircle2, text: "Strong administrative infrastructure and Safe City CCTV base for pilot execution" },
